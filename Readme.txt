@@ -1,6 +1,3 @@
-Thanks for downloading this template!
-
-Template Name: Green
-Template URL: https://bootstrapmade.com/green-free-one-page-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+<>
+<h2>Live Link : <h2/><i>https://jerin3j.github.io/nua-website/</i>
+</>

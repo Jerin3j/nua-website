@@ -271,30 +271,18 @@ const showBox2 =()=>{
   document.getElementById('box-1').style.display = 'none';
   document.getElementById('box-2').style.display = 'flex';
 }
-
-let currentStep = 0;
-    const carouselWrapper = document.querySelector('.pad-booking-box');
-    const box1 = document.querySelector('.box-1');
-
-    function nextStep() {
-      if(box1){
-        box1.hide
-      }
-      // currentStep++;
-      // updateCarousel();
-    }
-
-    function prevStep() {
-      currentStep--;
-      updateCarousel();
-    }
-
-    function updateCarousel() {
-      const stepWidth = document.querySelector('.box-1').offsetWidth;
-      carouselWrapper.style.transform = `translateX(${-currentStep * stepWidth}px)`;
-    }
-
-    function submitForm() {
-      // Handle form submission here
-      alert('Form submitted successfully!');
-    }
+const pevBox1=() =>{
+  document.getElementById('box-1').style.display = 'flex';
+  document.getElementById('box-2').style.display = 'none';
+}
+const showBox3 =()=>{
+  document.getElementById('box-2').style.display = 'none';
+  document.getElementById('box-3').style.display = 'flex';
+}
+const pevBox2=() =>{
+  document.getElementById('box-2').style.display = 'flex';
+  document.getElementById('box-3').style.display = 'none';
+}
+const submit = () =>{
+  alert("You order successfully submited")
+}
